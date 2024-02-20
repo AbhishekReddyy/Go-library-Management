@@ -1,0 +1,159 @@
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  
+  .brand i {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  .side-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .side-menu li {
+    margin-bottom: 15px;
+  }
+  
+  .side-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .side-menu a:hover {
+    background-color: #555;
+  }
+  
+  .active a {
+    background-color: #555;
+  }
+  
+  .logout {
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  #content {
+    margin-left: 250px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav form {
+    position: relative;
+  }
+  
+  nav form .form-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav form input[type="search"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+  }
+  
+  nav form .search-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav form .search-btn:hover {
+    background-color: #555;
+  }
+
+  main {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .head-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .head-title h1 {
+    color: #333;
+  }
+  
+  .box-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-info li {
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .box-info li span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .box-info li h3 {
+    color: #312f2f;
+  }
+  
+  .box-info li p {
+    color: rgb(27, 27, 27);
+  }
+  

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="Dashboard.css">
+
+	<title>Library Management System Dashboard</title>
+</head>
+<body>
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">Library</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-bookmark-alt-plus' ></i>
+					<span class="text">Add Book</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-bookmark-alt-minus' ></i>
+					<span class="text">Delete Book</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-edit' ></i>
+					<span class="text">Edit Book Details</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-user-pin' ></i>
+					<span class="text">User Details</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	<section id="content">
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Books</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			
+		</nav>
+
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+				</div>
+			</div>
+
+			<ul class="box-info">
+					<li>
+						<span class="text">
+							<h3>10</h3>
+							<p>Number Of Books Borrowed</p>
+						</span>
+					</li>
+					<li>
+						<span class="text">
+							<h3>8</h3>
+							<p>Number Of Books Reserved</p>
+						</span>
+					</li>
+				
+				
+					<li>
+						<span class="text">
+							<h3>5</h3>
+							<p>Number Of Books Returned</p>
+						</span>
+					</li>
+					<li>
+						
+						<span class="text">
+							<h3>2</h3>
+							<p>Number Of Books Lost</p>
+						</span>
+					</li>
+				
+				
+			</ul>
+
+		</main>
+	</section>
+	
+	<script src="Dashboard.js"></script>
+</body>
+</html>
